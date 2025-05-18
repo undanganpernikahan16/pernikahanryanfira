@@ -7,6 +7,29 @@ lightbox.option({
 })
 
 
+function kirimWa(event) {
+  event.preventDefault();
+
+  const nama = document.getElementById("nama").value.trim();
+  const jumlah = document.getElementById("jumlah").value;
+  const status = document.getElementById("status").value;
+
+  if (!nama || !jumlah || !status) {
+    alert("Harap lengkapi semua data terlebih dahulu.");
+    return false;
+  }
+
+  // Ganti dengan nomor WA kamu (format internasional, tanpa tanda +)
+  const noWa = "+6289501899824";
+
+  const pesan = `Halo, saya *${nama}*.\nJumlah tamu: *${jumlah}* orang.\nStatus Kehadiran: *${status}*.`;
+
+  const urlWa = `https://wa.me/${noWa}?text=${encodeURIComponent(pesan)}`;
+  window.open(urlWa, "_blank");
+  
+  return false;
+}
+
 // music
 var music = ''
 audio = document.querySelector('.audio')
