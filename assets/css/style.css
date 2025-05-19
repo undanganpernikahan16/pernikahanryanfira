@@ -117,7 +117,7 @@ body.transition {
 	background: url('../img/bg10.webp');
 	background-size: cover;
 	height: 80px;
-	z-index: 1;
+	z-index: 2;
 }
 
 .nav li {
