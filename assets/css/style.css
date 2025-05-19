@@ -189,8 +189,9 @@ body.transition {
 #hero-section {
 	width: 100%;
 	height: 100vh;
-	background: url("../img/foto-pengantin.jpg") top left;
+	background: url("../img/foto-pengantin.jpg")no-repeat center;
 	background-size: cover;
+	background-attachment: fixed;
 	position: relative;
 	background-position: center;
 	z-index: 2;
@@ -237,22 +238,37 @@ body.transition {
 
 .pembuka-section {
 	padding-top: 75px;
+	background: url('../img/bg7.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .acara-section {
-	background: url('../img/bg2.jpg') no-repeat center center;
+	background: url('../img/bg2.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .love-story-section {
-	background: url('../img/bg3.jpg') no-repeat center center;
+	background: url('../img/bg3.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .gift-section {
-	background: url('../img/bg4.jpg') no-repeat center center;
+	background: url('../img/bg4.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.lokasi-section {
+	background: url('../img/bg8.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.gallery-section {
+	background: url('../img/bg9.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -302,6 +318,7 @@ body.transition {
 
 .section-bg {
 	background-color: #001f3f;
+	
 }
 
 #content-section {
