@@ -495,7 +495,7 @@ body.transition {
 }
 
 .credit-card {
-	background: linear-gradient(135deg, #ffffff, #295b80);
+	background: linear-gradient(0deg, #182BCA, #fff);
 	background-size: cover;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -544,7 +544,7 @@ body.transition {
 	color: var(--black);
 	border: none;
 	padding: 5px 10px;
-	border-radius: 5px;
+	border-radius: 20px;
 	cursor: pointer;
 	margin-top: 20px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
