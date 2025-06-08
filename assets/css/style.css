@@ -633,6 +633,34 @@ body.transition {
 	}
 }
 
+/* Responsif untuk HP */
+@media (max-width: 768px) {
+	.doors {
+		width: 48%;
+		height: auto;
+		/* flex-direction: column; */
+		align-items: center;
+	}
+
+	.door {
+		width: 50%;
+		height: auto;
+		position: relative;
+		transform-origin: center center;
+	}
+
+	.door.left,
+	.door.right {
+		left: 0;
+		right: 0;
+		margin-bottom: 10px;
+	}
+
+	.door img {
+		object-fit: cover;
+	}
+}
+
 @media (max-width: 992px) {
 	ul.timeline:before {
 		left: 90px;
