@@ -646,7 +646,7 @@ body.transition {
 		width: 50%;
 		height: auto;
 		position: relative;
-		transform-origin: center center;
+		/* transform-origin: center center; */
 	}
 
 	.door.left,
