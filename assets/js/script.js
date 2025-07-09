@@ -92,7 +92,7 @@ function toggleMusic(event)
 }
 
 // date counter
-var countDownDate = new Date("Jul 17, 2025 09:00:00").getTime()
+var countDownDate = new Date("Jul 17, 2025 08:00:00").getTime()
 
 var x = setInterval(function() {
 	var now = new Date().getTime()
