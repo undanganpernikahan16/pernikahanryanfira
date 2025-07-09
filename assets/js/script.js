@@ -81,26 +81,27 @@ if (music) {
 // button music
 var isPlaying = true
 
-function toggleMusic(event)
-{
-	event.preventDefault()
+function toggleMusic(event) {
+	event.preventDefault();
 
-	const musicButton = document.getElementById('musicButton')
-	const audioElement = document.querySelector('.audio')
+	const musicButton = document.getElementById('musicButton');
+	const videoElement = document.getElementById('weddingVideo');
 
 	if (isPlaying) {
-		musicButton.innerHTML = '<i class="fas fa-fw fa-pause"></i>'
-		musicButton.classList.remove('rotate')
-		musicButton.style.transform = 'translateY(0)'
-		audioElement.pause()
+		musicButton.innerHTML = '<i class="fas fa-fw fa-pause"></i>';
+		musicButton.classList.remove('rotate');
+		musicButton.style.transform = 'translateY(0)';
+		videoElement.pause(); // ⬅️ pause video = stop musik
 	} else {
-		musicButton.innerHTML = '<i class="fas fa-fw fa-compact-disc"></i>'
-		musicButton.classList.add('rotate')
-		audioElement.play()
+		musicButton.innerHTML = '<i class="fas fa-fw fa-compact-disc"></i>';
+		musicButton.classList.add('rotate');
+		videoElement.play(); // ⬅️ play video = mulai musik
 	}
 
-	isPlaying = !isPlaying
+	isPlaying = !isPlaying;
 }
+
+
 
 // date counter
 var countDownDate = new Date("Jul 17, 2025 08:00:00").getTime()
