@@ -38,34 +38,45 @@ if (music) {
 }
 
 // door mulai
-function mulai()
-{
-	// back to top
-	window.scrollTo(0, 0)
+// function mulai()
+// {
+// 	// back to top
+// 	window.scrollTo(0, 0)
 
-	var audioDoor = document.getElementById('doorSound')
-	audioDoor.play()
+// 	var audioDoor = document.getElementById('doorSound')
+// 	audioDoor.play()
 
-	var doorSection = $('#door-section')
-	var doors = document.querySelectorAll('.door')
-	doors.forEach(function (door, index) {
-		var direction = (index === 0) ? -1 : 1
-		door.style.transform = 'rotateY(' + (70 * direction) + 'deg)'
-	})
+// 	var doorSection = $('#door-section')
+// 	var doors = document.querySelectorAll('.door')
+// 	doors.forEach(function (door, index) {
+// 		var direction = (index === 0) ? -1 : 1
+// 		door.style.transform = 'rotateY(' + (70 * direction) + 'deg)'
+// 	})
 
-	setTimeout(function() {
-		// music
-		audio.play()
-		doorSection.css('transform', 'scale(6)')
-	}, 600)
+// 	setTimeout(function() {
+// 		// music
+// 		audio.play()
+// 		doorSection.css('transform', 'scale(6)')
+// 	}, 600)
 
-	setTimeout(function() {
-		doorSection.css('opacity', 0)
-		$('body').removeClass('overflow-hidden')
-		$('body').addClass('transition')
-		doorSection.css('display', 'none')
-	}, 2000)
-}
+// 	setTimeout(function() {
+// 		doorSection.css('opacity', 0)
+// 		$('body').removeClass('overflow-hidden')
+// 		$('body').addClass('transition')
+// 		doorSection.css('display', 'none')
+// 	}, 2000)
+// }
+
+
+  function mulai() {
+    const video = document.getElementById('weddingVideo');
+    if (video) {
+      video.play().catch(e => {
+        console.warn('Gagal autoplay video:', e);
+      });
+    }
+  }
+
 
 // button music
 var isPlaying = true

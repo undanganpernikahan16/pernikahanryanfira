@@ -36,7 +36,7 @@ body.transition {
 }
 
 .open {
-	background: url('../img/nikahdepan.jpg') no-repeat center center;
+	background: url('../img/nikahdepan.webp') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
@@ -114,7 +114,7 @@ body.transition {
 	right: 0;
 	list-style-type: none;
 	display: flex;
-	background: url('../img/bg-hitam8.jpg');
+	background: url('../img/bg-hitam8.webp');
 	background-size: cover;
 	height: 80px;
 	z-index: 2;
@@ -207,7 +207,7 @@ body.transition {
 #hero-section {
 	width: 100%;
 	height: 100vh;
-	background: url('../img/r14.jpeg') no-repeat center;
+	background: url('../img/r14.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -257,13 +257,13 @@ body.transition {
 
 .pembuka-section {
 	padding-top: 75px;
-	background: url('../img/putih1.jpg') no-repeat center;
+	background: url('../img/putih1.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .acara-section {
-	background: url('../img/bghitam2.jpg') no-repeat center;
+	background: url('../img/bghitam2.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -273,25 +273,25 @@ body.transition {
 }
 
 .love-story-section {
-	background: url('../img/bghitam2.jpg') no-repeat center;
+	background: url('../img/bghitam2.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .gift-section {
-	background: url('../img/bghitam2.jpg') no-repeat center;
+	background: url('../img/bghitam2.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .lokasi-section {
-	background: url('../img/bg-putih9.jpg') no-repeat center;
+	background: url('../img/bg-putih9.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .gallery-section {
-	background: url('../img/putih.jpg') no-repeat center;
+	background: url('../img/putih.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -612,7 +612,7 @@ body.transition {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%), url('../img/r15.jpeg');
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%), url('../img/r15.webp');
 	background-position: center;
 	background-size: cover;
 }
