@@ -626,6 +626,10 @@ body.transition {
   #hero-section h4 {
     font-size: 1rem !important;
   }
+
+  #penutup-section h5 {
+    font-size: 1rem !important;
+  }
 }
 
 @media (max-width: 480px) {
