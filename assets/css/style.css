@@ -36,7 +36,7 @@ body.transition {
 }
 
 .open {
-	background: url('../img/landing.jpeg') no-repeat center center;
+	background: url('../img/nikahdepan.jpg') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
@@ -96,11 +96,11 @@ body.transition {
 }
 
 .h1-heading.left {
-	left: 0;
+	left: 200px;
 }
 
 .h1-heading.right {
-	right: 0;
+	right: 200px;
 }
 
 .huruf-sambung {
@@ -114,7 +114,7 @@ body.transition {
 	right: 0;
 	list-style-type: none;
 	display: flex;
-	background: url('../img/bg10.webp');
+	background: url('../img/bg-hitam8.jpg');
 	background-size: cover;
 	height: 80px;
 	z-index: 2;
@@ -123,6 +123,23 @@ body.transition {
 .nav li {
 	flex: 1;
 }
+
+.responsive-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+  overflow: hidden;
+  border-radius: 8px; /* optional, sesuai border-pink */
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .nav li a {
 	text-decoration: none;
@@ -190,7 +207,7 @@ body.transition {
 #hero-section {
 	width: 100%;
 	height: 100vh;
-	background: url("../img/rian1.jpeg")no-repeat center;
+	background: url('../img/r2.webp') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -210,14 +227,15 @@ body.transition {
 	display: inline-block;
 	padding: 10px 28px;
 	transition: 0.5s;
-	color: #001f3f;;
+	color: #000;
 	background: var(--white);
 }
 
 #hero-section .btn-get-started:hover {
-	background: #001f3f;;
+	background: #000;
 	color: var(--white);
 }
+
 
 .sparkle {
 	position: absolute;
@@ -230,48 +248,55 @@ body.transition {
 }
 
 .text-krem {
-	color: #FFDE83;
+	color: #A67A00;
 }
 
 .text-biru {
-	color: #001f3f;
+	color: #000;
 }
 
 .pembuka-section {
 	padding-top: 75px;
-	background: url('../img/bg7.webp') no-repeat center;
+	background: url('../img/putih1.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .acara-section {
-	background: url('../img/bg2.webp') no-repeat center;
+	background: url('../img/bghitam2.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
+.acara-section hr{
+	color: #fff;
+}
+
 .love-story-section {
-	background: url('../img/bg3.webp') no-repeat center;
+	background: url('../img/bghitam2.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .gift-section {
-	background: url('../img/bg4.webp') no-repeat center;
+	background: url('../img/bghitam2.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .lokasi-section {
-	background: url('../img/bg8.webp') no-repeat center;
+	background: url('../img/bg-putih9.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .gallery-section {
-	background: url('../img/bg9.webp') no-repeat center;
+	background: url('../img/putih.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.flipped {
+	transform: scaleX(-1);
 }
 
 .parallax-section {
@@ -318,7 +343,7 @@ body.transition {
 }
 
 .section-bg {
-	background-color: #001f3f;
+	background-color: #ffffff;
 	
 }
 
@@ -349,7 +374,7 @@ body.transition {
 
 .border-pink {
 	border-radius: 15px;
-	border: 2px solid #FFDE83;
+	border: 2px solid #000;
 }
 
 .btn-pink {
@@ -363,12 +388,12 @@ body.transition {
 	border-radius: 4px;
 	transition: 0.5s;
 	color: var(--white);
-	background: #001f3f;
+	background: #000;
 }
 
 .btn-pink:hover {
 	background: #ffffff;;
-	color: #001f3f;
+	color: #000;
 }
 
 .timeline {
@@ -505,6 +530,17 @@ body.transition {
 	position: absolute;
 }
 
+.credit-dana {
+	background: linear-gradient(0deg, #1889ca, #fff);
+	background-size: cover;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 300px;
+	color: var(--white);
+	position: absolute;
+}
+
 .card-logo {
 	width: 75px;
 	position: absolute;
@@ -576,7 +612,7 @@ body.transition {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%), url('../img/penutup.jpg');
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%), url('../img/r11.webp');
 	background-position: center;
 	background-size: cover;
 }
